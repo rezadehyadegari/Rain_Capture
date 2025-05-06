@@ -3,9 +3,10 @@ using UnityEngine;
 public class RainSpawnerScript : MonoBehaviour
 {
     public GameObject rainDropPrefab;
-    public float spawnRate = 0.5f; // هر نیم ثانیه یک بار قطره بسازه
-    public float spawnRangeX = 8f; // محدوده پخش قطره ها در عرض
-    private float timer = 0f;
+    public float spawnRate = 0.5f; 
+    public float spawnRangeX = 8f;
+
+    private float timer = 0f; // ✅ اضافه شده
 
     void Update()
     {

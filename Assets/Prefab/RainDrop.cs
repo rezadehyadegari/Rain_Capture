@@ -2,12 +2,16 @@ using UnityEngine;
 
 public class RainDrop : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.collider.CompareTag("Ground"))
+        if (collision.CompareTag("Ground"))
         {
             GameManager.instance.MissCount++;
-
+            Destroy(gameObject);
+        }
+        else if (collision.CompareTag("Player"))
+        {
+            GameManager.instance.score++;
             Destroy(gameObject);
         }
     }

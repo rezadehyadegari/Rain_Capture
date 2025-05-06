@@ -539,7 +539,7 @@ GameObject:
   - component: {fileID: 450214537}
   m_Layer: 0
   m_Name: 'player '
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -576,18 +576,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.14944029, y: -0.87004876}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 10.24, y: 10.24}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 8.239903, y: 8.128862}
   m_EdgeRadius: 0
 --- !u!50 &450214540
 Rigidbody2D:
@@ -609,7 +609,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!212 &450214541
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -650,7 +650,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e18097bc92800a748a48f8b706913cc5, type: 3}
   m_Color: {r: 1, g: 0, b: 0.5682988, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -669,8 +669,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450214536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -4.13, z: 0}
-  m_LocalScale: {x: 2, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0.1, y: -4.36, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.25, z: 0}
   m_Children:
   - {fileID: 1670203314}
   m_Father: {fileID: 0}
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 40.22853, y: 66.22383, z: 146.26202, w: -28.155695}
+  m_margin: {x: 113.09871, y: 66.22382, z: 73.21542, w: -28.155695}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -923,7 +923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   MissCount: 0
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 641235662}
 --- !u!4 &1506503914
 Transform:
   m_ObjectHideFlags: 0
